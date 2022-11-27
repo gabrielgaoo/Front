@@ -1,0 +1,46 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+	
+}
+
+.cabecalho{
+	display:flex;
+	padding:20px;
+	border-bottom:1px solid rgba(255,255,255,0.2);
+	flex-wrap:wrap;
+	justify-content:center;	
+}
+.titulo{
+	font-family:'sarala',sans-serif;
+	color:#ECD6C4;
+}
+
+
+/*Estilizando a secao Principal Flexbox*/
+.secao-principal{
+	padding:30px;
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+	gap:30px;
+}
+
+.cd{
+ 	
+}
+.cdz{
+	height:200px;
+	width:200px;
+	margin-bottom:10px;
+	
+}
+.texto{
+  width:200px;
+  font-family:'sarala',sans-serif;
+  color:#ECD6C4;
+}
